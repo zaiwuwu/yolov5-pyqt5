@@ -25,8 +25,11 @@
 （6）摄像头检测不进行演示 
 
 
-####
-运行出现问题可能是因为我采用GPU运行的原因 如果你的电脑不支持cuda和cudnn 请打开detect_logic.py的71行将default='0'修改为default=''![image](https://github.com/zaiwuwu/yolov5-pyqt5/assets/156164792/ea741f9a-dcb5-4584-ba19-0d8afb0d76ab)
+
+运行出现问题可能是因为我采用GPU运行的原因 如果你的电脑不支持cuda和cudnn 请打开detect_logic.py的71行将default='0'修改为default=''![image](https://github.com/zaiwuwu/yolov5-pyqt5/assets/156164792/ea741f9a-dcb5-4584-ba19-0d8afb0d76ab) 
+
+
+如果你想使用GPU运行yolo可以自行百度下载cuda和cudnn并下载适配cuda的torch、torchvison、torchaudio
 
 
 
