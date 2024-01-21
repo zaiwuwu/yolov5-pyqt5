@@ -11,7 +11,7 @@ from ui.login_ui import Login_Ui_Form
 from ui.registe_ui import Ui_Dialog
 # 导入设计好的检测界面
 from detect_logical import UI_Logic_Window
-#我是赵义勇
+#我是赵义勇dage
 # 界面登录
 class win_Login(QMainWindow):
     def __init__(self, parent = None):
