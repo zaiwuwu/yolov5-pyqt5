@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Modified by: Ruihao
-# @ProjectName:yolov5-pyqt5
-
 import sys
 import cv2
 import time
