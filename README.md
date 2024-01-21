@@ -1,4 +1,4 @@
-1、下载代码 链接：https://github.com/zaiwuwu/yolov5-pyqt5 或者打开终端直接clone https://github.com/zaiwuwu/yolov5-pyqt5.git 
+1、下载代码 链接：https://github.com/zaiwuwu/yolov5-pyqt5 或者打开终端直接 git clone https://github.com/zaiwuwu/yolov5-pyqt5.git 
 
 2、构建环境 `注意关闭代理否则会出现超时的情况`
 
