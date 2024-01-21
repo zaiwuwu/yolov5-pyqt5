@@ -1,0 +1,14 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="utils.general.save_one_box" />
+          <option value="utils.plots.plot_one_box" />
+          <option value="utils.torch_utils.load_classifier" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
