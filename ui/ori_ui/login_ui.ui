@@ -10,12 +10,6 @@
     <height>300</height>
    </rect>
   </property>
-  <property name="sizePolicy">
-   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-    <horstretch>0</horstretch>
-    <verstretch>0</verstretch>
-   </sizepolicy>
-  </property>
   <property name="minimumSize">
    <size>
     <width>500</width>
@@ -44,20 +38,27 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>30</y>
-     <width>281</width>
-     <height>61</height>
+     <x>200</x>
+     <y>50</y>
+     <width>111</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Times New Roman</family>
-     <pointsize>26</pointsize>
+     <family>Arial</family>
+     <pointsize>8</pointsize>
+     <weight>9</weight>
+     <italic>true</italic>
+     <bold>false</bold>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 6pt &quot;Arial&quot;;
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+   </property>
    <property name="text">
-    <string>行人识别检测计数</string>
+    <string>LOGIN</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="edit_username">
@@ -113,8 +114,6 @@
    </property>
   </widget>
  </widget>
- <resources>
-  <include location="../../bg.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
